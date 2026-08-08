@@ -187,38 +187,3 @@ body {
   .nav-buttons { flex-direction: column; }
   .nav-button { width: 100%; text-align: center; }
 }
-.sections-row {
-  display: flex;
-  gap: 20px;
-  margin-bottom: 20px;
-  justify-content: flex-end;
-}
-
-.sections-row .card {
-  flex: 1;
-  min-width: 250px;
-}
-
-@media (max-width: 640px) {
-  .container {
-    padding: 20px 16px;
-  }
-  .hero {
-    padding: 60px 20px;
-    min-height: 40vh;
-  }
-  .card {
-    padding: 20px;
-  }
-  .sections-row {
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  .nav-buttons {
-    flex-direction: column;
-  }
-  .nav-button {
-    width: 100%;
-    text-align: center;
-  }
-}
